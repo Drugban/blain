@@ -1,6 +1,6 @@
 import BarIcon from "./bar.svg"
 import SearchIcon from "./search.svg"
-import StartUserIcon from "./startuser.svg"
+import StartUserIcon from "./startUser.svg"
 import MicrophoneIcon from "./microphone.svg"
 import HomeIcon from "./home.svg"
 import VideoIcon from "./video.svg"
