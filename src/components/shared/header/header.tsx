@@ -27,7 +27,7 @@ export const Header: FC<Props> = ({ className }) => {
 					<div>
 						<Link className={styles.logo} href={"/"}>
 							<Image src={"/favicon.ico"} alt="logo" width={28} height={28} />
-							<h1>Blain</h1>
+							<h1>Blazer</h1>
 						</Link>
 					</div>
 				</div>
