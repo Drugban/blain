@@ -1,0 +1,10 @@
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	position: relative;
+	margin: 2rem;
+	padding-inline: 0.5rem;
+	background: var(--content-bg);
+	border-radius: 1rem;
+}

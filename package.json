@@ -1,0 +1,44 @@
+{
+	"name": "blain",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"eslint": "next lint",
+		"stylelint": "stylelint \"**/*.{css,scss}\"",
+		"lint": "pnpm eslint && pnpm stylelint",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"@svgr/webpack": "^8.1.0",
+		"clsx": "^2.1.1",
+		"next": "14.2.7",
+		"postcss": "^8.4.44",
+		"postcss-flexbugs-fixes": "^5.0.2",
+		"postcss-preset-env": "^10.0.2",
+		"react": "^18",
+		"react-dom": "^18",
+		"swiper": "^11.1.12"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"autoprefixer": "^10.4.20",
+		"eslint": "^8",
+		"eslint-config-next": "14.2.7",
+		"prettier": "^3.3.3",
+		"sass": "^1.77.8",
+		"stylelint": "^16.9.0",
+		"stylelint-config-standard": "^36.0.1",
+		"stylelint-config-standard-scss": "^13.1.0",
+		"typescript": "^5"
+	},
+	"browserslist": [
+		">0.3%",
+		"not dead",
+		"not op_mini all"
+	]
+}
